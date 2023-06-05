@@ -14,7 +14,7 @@ options.add_argument("enable-automation")
 options.add_argument("--disable-infobars")
 
 options.add_argument("--disable-dev-shm-usage")
-chrome_driver_path = ''
+chrome_driver_path = './chromedriver'
 my_url = 'https://khedmatma.ir'
 option = Options()
 option.headless = False
